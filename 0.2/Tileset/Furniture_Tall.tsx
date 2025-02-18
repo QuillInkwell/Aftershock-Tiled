@@ -73,17 +73,17 @@
  </tile>
  <tile id="14">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="f_mannequin"/>
   </properties>
  </tile>
  <tile id="15">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="f_display_fridge"/>
   </properties>
  </tile>
  <tile id="16">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="f_arcade_machine"/>
   </properties>
  </tile>
  <tile id="17">

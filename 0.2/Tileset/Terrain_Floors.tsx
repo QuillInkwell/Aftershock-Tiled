@@ -123,12 +123,12 @@
  </tile>
  <tile id="24">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="t_elevator"/>
   </properties>
  </tile>
  <tile id="25">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="t_elevator_control"/>
   </properties>
  </tile>
  <tile id="26">

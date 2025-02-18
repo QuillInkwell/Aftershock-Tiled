@@ -188,12 +188,12 @@
  </tile>
  <tile id="37">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="f_reinforced_displaycase_locked"/>
   </properties>
  </tile>
  <tile id="38">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="f_server"/>
   </properties>
  </tile>
  <tile id="39">
