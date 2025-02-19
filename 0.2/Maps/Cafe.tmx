@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="24" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+ <editorsettings>
+  <export target="../../../../../Desktop/Modding/Aftershock/Export Waiting to Convert/Cafe.tmj" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="../Tileset/Terrain_Floors.tsx"/>
  <tileset firstgid="101" source="../Tileset/Terrain_Walls.tsx"/>
  <tileset firstgid="201" source="../Tileset/Terrain_Doors.tsx"/>
  <tileset firstgid="301" source="../Tileset/Furniture_Normal.tsx"/>
  <tileset firstgid="401" source="../Tileset/Furniture_Tall.tsx"/>
- <group id="4" name="00">
-  <layer id="1" name="00 Fill Terrain" width="24" height="24" locked="1">
-   <data encoding="csv">
+ <layer id="1" name="00 Fill Terrain" width="24" height="24" locked="1">
+  <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -33,9 +35,9 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
-  </layer>
-  <layer id="2" name="00 Terrain" width="24" height="24">
-   <data encoding="csv">
+ </layer>
+ <layer id="2" name="00 Terrain" width="24" height="24">
+  <data encoding="csv">
 4,0,5,0,5,5,0,0,5,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,
 0,0,5,5,0,0,5,5,5,5,5,0,0,0,0,101,101,101,101,101,101,101,0,0,
 4,5,5,0,0,5,6,6,6,6,6,6,4,4,101,101,7,101,7,7,7,101,101,0,
@@ -61,9 +63,9 @@
 4,0,0,0,0,0,0,4,0,4,0,4,0,4,0,101,101,101,101,101,101,101,0,0,
 4,4,0,0,4,4,0,0,4,4,4,0,4,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="3" name="00 Furniture" width="24" height="24">
-   <data encoding="csv">
+ </layer>
+ <layer id="3" name="00 Furniture" width="24" height="24">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,325,0,303,310,303,0,0,0,
@@ -89,11 +91,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
- </group>
- <group id="8" name="01" visible="0">
-  <layer id="5" name="01 Fill Terrain" width="24" height="24" locked="1">
-   <data encoding="csv">
+ </layer>
+ <layer id="5" name="01 Fill Terrain" width="24" height="24" locked="1">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -119,9 +119,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="6" name="01 Terrain" width="24" height="24">
-   <data encoding="csv">
+ </layer>
+ <layer id="6" name="01 Terrain" width="24" height="24">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,23,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,7,7,7,7,7,23,23,0,
@@ -147,9 +147,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,23,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="7" name="01 Furniture" width="24" height="24">
-   <data encoding="csv">
+ </layer>
+ <layer id="7" name="01 Furniture" width="24" height="24">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -175,6 +175,5 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
- </group>
+ </layer>
 </map>
