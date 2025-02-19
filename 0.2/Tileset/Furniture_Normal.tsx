@@ -198,7 +198,12 @@
  </tile>
  <tile id="39">
   <properties>
-   <property name="id" value=""/>
+   <property name="id" value="f_planter"/>
+  </properties>
+ </tile>
+ <tile id="40">
+  <properties>
+   <property name="id" value="f_ev_charger"/>
   </properties>
  </tile>
 </tileset>
